@@ -118,8 +118,47 @@ justify-content: flex-start;
     /* border: 2px solid red; */
     width: 259.56px;
 height: 217.01px; 
-
 }
+.second-section-photo2{
+    border: 2px solid red;
+    width: 946px;
+height: 336px;
+margin-top: 48px;
+display: flex;
+justify-content: space-around;
+padding: 48px;
+margin: 0 auto;
+margin-top: 32px;
+}
+.leftside-content2{
+    border: 2px solid red;
+    width: 240px;
+    height: 240px;
+}
+.rightside-content2{
+    border: 2px solid red;
+    width: 477px;
+    height: 219px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.rightside-content2 h2{
+    margin-bottom: 17px;
+    font-size: 24px;
+}
+.rightside-content2 p{
+    margin-bottom: 17px;
+    font-size: 16px;
+}
+.rightside-content2 button{
+    margin-top: 32px;
+    font-size: 15px; 
+    border: 2PS solid white;
+    width: 130px;
+    height: 48px;
+}
+
  
 
 
