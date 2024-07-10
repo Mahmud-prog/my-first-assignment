@@ -86,16 +86,39 @@ display: flex;
 justify-content: space-between;
 padding: 48px;
 }
-.leftside-conten{
+.leftside-content{
     border: 2px solid red;
-
+display: flex;
     width: 477px;
 height: 219px;
+flex-direction: column;
+align-items: flex-start;
+justify-content: flex-start;
 }
+.leftside-content h2{
+    font-size: 24px;
+}
+.leftside-content p{
+    
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+     border: 2px solid red;
+} 
+.leftside-content button{
+    font-size: 15px; 
+    border: 2PS solid white;
+    width: 130px;
+    height: 48px;
+}
+
 .rightside-content{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 259.56px;
 height: 217.01px; 
+
 }
  
 
