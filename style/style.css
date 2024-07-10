@@ -53,9 +53,10 @@ margin-bottom: 130px;
 }
 /* assignment first section style endss hare  */
 
-/* assignment second section style strats hare */
+/* assignment second section style strats hare */ 
+ 
 .second-section-container{
-   
+   border: 2px solid red;
     width: 1140px;
 height: 1393px;
 margin: 0 auto;
@@ -76,50 +77,27 @@ margin-top: 80px;
  padding: 25px 47px;
  font-size: 16px;
 }
-       /* style part 2 */
- 
- .section-part2{
-    
+.second-section-photo1{
+    border: 2px solid red;
     width: 946px;
-height: 400px;
-margin: 0 auto;
-margin-top: 90px;
+height: 336px;
+margin-top: 48px;
 display: flex;
-align-items: center;
-justify-content: center;
-/* justify-content: space-between; */
-margin-bottom: 40px;
- }     
+justify-content: space-between;
+padding: 48px;
+}
+.leftside-conten{
+    border: 2px solid red;
 
-.leftside-content{
-    width: 450px;
+    width: 477px;
 height: 219px;
 }
-.rightside-content{ 
-    width: 250px;
-height: 217.01px;
-
+.rightside-content{
+    border: 2px solid red;
+    width: 259.56px;
+height: 217.01px; 
 }
-.leftside-content h2{
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 16px;
-    margin-right: 20pxS;
-}
-.leftside-content p{
-    color: rgb(13, 19, 33);
-font-size: 16px;
-margin-bottom: 20px;
-margin-right: 20px;
-
-}
-.leftside-content button{
-    border: 1px solid rgb(13, 19, 33);
-    width: 171px;
-height: 47px;
-font-size: 20px;
-margin-top: 8px;
-}
+ 
 
 
 
