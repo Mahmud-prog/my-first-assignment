@@ -123,7 +123,7 @@ height: 217.01px;
     border: 2px solid red;
     width: 946px;
 height: 336px;
-margin-top: 48px;
+margin-top: 50px;
 display: flex;
 justify-content: space-around;
 padding: 48px;
@@ -158,8 +158,41 @@ margin-top: 32px;
     width: 130px;
     height: 48px;
 }
-
- 
+.second-section-photo3{
+    border: 2px solid red;
+    width: 946px;
+    height: 336px;
+    /* margin-top: 48px; */
+    display: flex;
+    justify-content: space-between;
+    padding: 48px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.leftside-cotent3{
+    border: 2px solid red;
+width: 477px;
+height: 220px;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+}
+.leftside-cotent3 p{
+    margin-top: 17px;
+    font-size: 16px;
+}
+.leftside-cotent3 button{
+    margin-top: 32px;
+    font-size: 15px; 
+    border: 2PS solid white;
+    width: 130px;
+    height: 48px;
+}
+.rightside-content3{
+    border: 2px solid red;
+    width: 240px;
+height: 240px;
+}
 
 
 
