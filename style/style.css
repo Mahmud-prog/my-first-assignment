@@ -194,6 +194,46 @@ align-items: flex-start;
 height: 240px;
 }
 
+/* assignment second section style strats hare */ 
 
 
-/* assignment second section style strats hare */
+/* assignment third section style strats hare */
+.third-section-container{
+    border: 2px solid red;
+    width: 1140px;
+    height: 777px;
+    margin: 0 auto;
+}
+.third-section-content{
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 30%;
+    margin-top: 15px;
+}
+.third-section-content h1{
+    font-size: 32px;
+    margin-bottom: 24px;
+}
+.third-section-content p{
+    font-size: 16px;
+}
+.embed{
+    border: 2px solid red;
+    margin-top: 50px;
+width: 1140px;
+height: 614px;
+margin: 0 auto;
+justify-content: center;
+text-align: center;margin-top: 80px;
+/* border-radius: 15px; */
+}
+.embed iframe{
+    border-radius: 15px;
+}
+
+/* assignmentthird section style ends hare */
