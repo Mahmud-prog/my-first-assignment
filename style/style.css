@@ -29,10 +29,11 @@ background-image: url(images/roof.png);
 }
 .assignment-first-content h1{
     /* border: 2px solid red; */
-   padding: 0 400;
+   padding: 0 221px;
   /* border: 2px solid red; */
   color: rgb(13, 19, 33);
     margin-top: 40px;
+    font-size: 48px;
 }
 .assignment-first-content p{
    /* border: 2px solid red; */
@@ -293,10 +294,12 @@ height: 313px;
 margin: 0 auto;
 margin-top: 50px;
 border-radius: 15px;
-background-image: url(images/handshake.jpg);
+background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.451), transparent), url("../images/handshake.jpg");
 background-size: cover;
 background-color: rgba(0, 0, 0, 0, 4);
 background-blend-mode: overlay;
+/* justify-content: center; */
+background-position: center;
 }
 .footer-content{
     /* border: 2px solid red; */
@@ -306,24 +309,46 @@ display: flex;
 flex-direction: column;
 text-align: center;
 color: white;
-margin-top: 100px;
+/* margin-top: 100px; */
+padding: 48px 64px;
+/* border: 2px solid red; */
 }
 .footer-content h1{
-    margin-bottom: 30px;
+   margin-bottom: 16px 0px;
+   /* border: 2px solid red; */
+   /* width: 15%; */
+   color: rgb(255, 255, 255);
+   font-size: 32px;
+   font-weight: 700px;
+   text-align: center;
 }
 .footer-content p{
    /* margin-bottom: 80px; */
+   margin: 16px;
+   color: rgb(255, 255, 255);
+   font-size: 32px;
+   font-weight: 400px;
+   text-align: center;
+   /* border: 2px solid red; */
 }
-.form{
+.input-sectin{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 39px; 
+    /* border: 2px solid red; */
+}
+.footer-content input{
     box-sizing: border-box;
-    border: 1px solid rgba(13, 19, 33, 0.15);
+    /* border: 1px solid rgba(13, 19, 33, 0.15);s */
     border-radius: 8px;
     width: 548px;
-height: 57px;
+     height: 57px;
     background: rgb(255, 255, 255);
-    margin: 0 auto;
-    margin-top: 60px;
-    align-items: center;
+   padding: 19px 20px 19px 20px;
+   color: rgba(13, 19, 33, 0.4);
+   margin-left: 30px; 
+   /* margin-bottom: 20px; */
 }
 .button{
     width: 120px;
@@ -333,16 +358,15 @@ display: flex;
 justify-content: center;
 align-items: center;
 margin: 0 auto;
+border-radius: 10px;
 }
 .last-section{
-    width: 1140px;
-    height: 36px;
+ max-width: 1140px;  
+ /* border: 2px solid red; */
+    /* height: 100px; */
 /* border: 2px solid red; */
 margin: 0 auto;
-margin-top: 100px;
+margin-top: 150px;
 display: flex;
-justify-content: space-evenly;
-}
-.last-section img{
-gap: none;
+justify-content: space-between;
 }
